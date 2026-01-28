@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ImpactSection from '@/components/ImpactSection'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -57,6 +58,9 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      {/* Impact Section */}
+      <ImpactSection />
     </main>
   )
 }
