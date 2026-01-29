@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import styles from './page.module.css'
 import SolutionSection from '@/components/SolutionSection'
 import CommitmentJourney from '@/components/CommitmentJourney/CommitmentJourney'
 import { HeroSection } from '@/components/landing-page/sections/HeroSection'
