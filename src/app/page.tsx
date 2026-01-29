@@ -1,3 +1,4 @@
+import SolutionSection from '@/components/SolutionSection'
 import CommitmentJourney from '@/components/CommitmentJourney/CommitmentJourney'
 import ImpactSection from '@/components/ImpactSection'
 import { HeroSection } from '@/components/landing-page/sections/HeroSection'
@@ -9,6 +10,8 @@ export default function Home() {
       <HeroSection />
       <CommitmentJourney />
       <ImpactSection />
+      <SolutionSection />
     </div>
+
   )
 }
